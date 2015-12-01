@@ -15,7 +15,7 @@
 class IrLedControl
 {
 public:
-	IrLedControl(int ir, int led, int button, boolean buttonPullup); // constructor, button and buttonPullup are optional
+	IrLedControl(int ir, int led, int button = 0, boolean buttonPullup = true); // constructor, button and buttonPullup are optional
 	~IrLedControl() {}												 // destructor
 	
 	void control();			// main, controlling function

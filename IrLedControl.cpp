@@ -10,7 +10,7 @@
 
 #include "IrLedControl.h"
 
-IrLedControl::IrLedControl(int ir, int led, int button = 0, boolean buttonPullup = false)
+IrLedControl::IrLedControl(int ir, int led, int button, boolean buttonPullup)
 {
 	irPin = ir;
 	ledPin = led;
